@@ -1,0 +1,15 @@
+{
+  "name": "zimbotechia",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api start:dev",
+    "build:web": "pnpm --filter web build",
+    "build:api": "pnpm --filter api build"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
